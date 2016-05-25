@@ -7,8 +7,8 @@ from nltk.corpus import wordnet as wn
 
 
 # Read the file and return a text
-def file_reader( filename ):
-    with open('Data/'+filename+'.story','r') as file:
+def file_reader( filename, extension ):
+    with open('Data/'+filename+'.'+extension,'r') as file:
         text = file.read()
     file.close()
     return text
@@ -25,8 +25,7 @@ def sentence_tokenizer( text ):
 # entry 4 = Question type
 def question_parser( filename ):
     result = []
-    with open('Data/'+filename+'.questions') as file:
-        questions = file.read()
+    questions = file_reader( filename, 'questions')
     match_question = re.findall(r'Question: (.+)',questions)
     match_id = re.findall(r'QuestionID: (.+)', questions)
     match_difficulty = re.findall(r'Difficulty: (.+)', questions)
@@ -60,7 +59,7 @@ def noun_phrase_chunker( text ):
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         input_file = sys.argv[1]
-        story_text = file_reader( input_file )
+        story_text = file_reader( input_file, 'story' )
         print(story_text)
         # sent_tokens = sentence_tokenizer( story_text )
         # noun_phrase_chunker( sent_tokens )
