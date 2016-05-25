@@ -8,7 +8,7 @@ from nltk.corpus import wordnet as wn
 
 # Read the file and return a text
 def file_reader( filename ):
-    with open(filename+'.story','r') as file:
+    with open('../Data/'+filename+'.story','r') as file:
         text = file.read()
     file.close()
     return text
@@ -25,7 +25,7 @@ def sentence_tokenizer( text ):
 # entry 4 = Question type
 def question_parser( filename ):
     result = []
-    with open(filename+'.questions') as file:
+    with open('../Data/'+filename+'.questions') as file:
         questions = file.read()
     match_question = re.findall(r'Question: (.+)',questions)
     match_id = re.findall(r'QuestionID: (.+)', questions)
@@ -61,8 +61,9 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         input_file = sys.argv[1]
         story_text = file_reader( input_file )
-        sent_tokens = sentence_tokenizer( story_text )
-        noun_phrase_chunker( sent_tokens )
+        print(story_text)
+        # sent_tokens = sentence_tokenizer( story_text )
+        # noun_phrase_chunker( sent_tokens )
 
 
     else:
