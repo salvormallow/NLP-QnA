@@ -1,0 +1,129 @@
+QuestionId: blogs-04-1
+Who	WP	2	nsubj
+approached	VBD	0	ROOT
+the	DT	4	det
+bowl	NN	2	dobj
+
+QuestionId: blogs-04-10
+Where	WRB	2	advmod
+did	VBD	0	ROOT
+the	DT	5	det
+narrator	NN	5	compound
+place	NN	2	dobj
+the	DT	7	det
+bowl	NN	2	nsubj
+
+QuestionId: blogs-04-11
+Where	WRB	2	advmod
+did	VBD	0	ROOT
+the	DT	5	det
+squirrel	NN	5	compound
+fall	NN	2	nsubj
+
+QuestionId: blogs-04-12
+Why	WRB	2	advmod
+did	VBD	0	ROOT
+the	DT	5	det
+narrator	NN	5	compound
+place	NN	2	dobj
+the	DT	7	det
+bowl	NN	2	nsubj
+on	IN	10	case
+the	DT	10	det
+deck	NN	7	nmod
+
+QuestionId: blogs-04-13
+Why	WRB	5	advmod
+did	VBD	5	aux
+the	DT	4	det
+birds	NNS	5	nsubj
+organize	VBP	0	ROOT
+themselves	PRP	5	dobj
+
+QuestionId: blogs-04-14
+What	WP	4	dobj
+did	VBD	4	aux
+we	PRP	4	nsubj
+keep	VB	0	ROOT
+outside	JJ	4	advmod
+on	IN	9	case
+the	DT	9	det
+back	JJ	9	amod
+deck	NN	4	nmod
+
+QuestionId: blogs-04-2
+Who	WP	2	nsubj
+fell	VBD	0	ROOT
+over	IN	7	case
+the	DT	5	det
+deck	NN	7	nmod:poss
+'s	POS	5	case
+railing	NN	2	nmod
+
+QuestionId: blogs-04-3
+What	WDT	2	nsubj
+slipped	VBD	0	ROOT
+off	RP	2	compound:prt
+the	DT	5	det
+deck	NN	7	nmod:poss
+'s	POS	5	case
+railing	NN	2	dobj
+
+QuestionId: blogs-04-4
+What	WP	2	nmod
+did	VBD	0	ROOT
+the	DT	5	det
+birds	NNS	5	compound
+bath	NN	2	iobj
+themselves	PRP	2	dobj
+in	IN	1	case
+
+QuestionId: blogs-04-5
+Who	WP	3	nsubj
+also	RB	3	advmod
+comes	VBZ	0	ROOT
+to	TO	5	mark
+drink	VB	3	xcomp
+out	IN	5	compound:prt
+of	IN	8	case
+it	PRP	5	nmod
+
+QuestionId: blogs-04-6
+Who	WP	2	nsubj
+saw	VBD	0	ROOT
+his	PRP$	6	nmod:poss
+one	CD	6	nummod
+little	JJ	6	amod
+paw	NN	2	dobj
+hanging	VBG	2	xcomp
+on	IN	7	nmod
+
+QuestionId: blogs-04-7
+What	WP	2	nsubj
+did	VBD	0	ROOT
+I	PRP	4	nsubj
+wish	VBP	2	ccomp
+I	PRP	6	nsubj
+had	VBD	4	ccomp
+
+QuestionId: blogs-04-8
+Who	WP	2	nsubj
+drinks	VBZ	0	ROOT
+out	IN	2	compound:prt
+of	IN	5	case
+it	PRP	2	nmod
+and	CC	2	cc
+bathes	VBZ	2	conj
+in	IN	9	case
+it	PRP	7	nmod
+
+QuestionId: blogs-04-9
+Where	WRB	6	advmod
+do	VBP	6	aux
+the	DT	4	det
+birds	NNS	6	nsubj
+literally	RB	6	advmod
+line	VBP	0	ROOT
+up	RP	6	advmod
+on	IN	6	nmod
+

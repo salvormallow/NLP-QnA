@@ -1,0 +1,104 @@
+QuestionId: fables-01-1
+Where	WRB	5	advmod
+was	VBD	5	aux
+the	DT	4	det
+crow	NN	5	nsubj
+sitting	VBG	0	ROOT
+
+QuestionId: fables-01-10
+Who	WP	2	nsubj
+set	VBD	0	ROOT
+his	PRP$	4	nmod:poss
+wits	NNS	2	dobj
+to	TO	6	mark
+work	VB	2	advcl
+
+QuestionId: fables-01-11
+Who	WP	2	nsubj
+tried	VBD	0	ROOT
+to	TO	4	mark
+discover	VB	2	xcomp
+how	WRB	7	advmod
+to	TO	7	mark
+get	VB	4	ccomp
+the	DT	9	det
+cheese	NN	7	dobj
+
+QuestionId: fables-01-12
+What	WP	5	dobj
+did	VBD	5	aux
+the	DT	4	det
+fox	NN	5	nsubj
+say	VBP	0	ROOT
+about	IN	9	case
+the	DT	9	det
+bird's	NN	9	compound
+beauty	NN	5	nmod
+
+QuestionId: fables-01-13
+How	WRB	2	advmod
+did	VBD	0	ROOT
+the	DT	5	det
+crow	NN	5	compound
+caw	NN	2	nsubj
+
+QuestionId: fables-01-2
+What	WP	5	dobj
+did	VBD	5	aux
+the	DT	4	det
+crow	NN	5	nsubj
+have	VBP	0	ROOT
+in	IN	8	case
+her	PRP$	8	nmod:poss
+beak	NN	5	nmod
+
+QuestionId: fables-01-3
+Who	WP	5	dobj
+is	VBZ	5	cop
+the	DT	4	det
+Story	NNP	5	nsubj
+about	IN	0	ROOT
+
+QuestionId: fables-01-4
+What	WP	5	dobj
+did	VBD	5	aux
+the	DT	4	det
+fox	NN	5	nsubj
+do	VBP	0	ROOT
+to	TO	8	case
+the	DT	8	det
+cheese	NN	5	nmod
+
+QuestionId: fables-01-5
+Where	WRB	2	advmod
+was	VBD	0	ROOT
+the	DT	5	det
+fox	NN	5	compound
+standing	NN	2	nsubj
+
+QuestionId: fables-01-6
+What	WP	5	dobj
+did	VBD	5	aux
+the	DT	4	det
+crow	NN	5	nsubj
+feel	VB	0	ROOT
+
+QuestionId: fables-01-7
+Who	WP	2	nsubj
+flattered	VBD	0	ROOT
+the	DT	4	det
+crow	NN	2	dobj
+
+QuestionId: fables-01-8
+What	WP	5	dobj
+was	VBD	5	aux
+the	DT	4	det
+crow	NN	5	nsubj
+doing	VBG	0	ROOT
+
+QuestionId: fables-01-9
+Where	WRB	2	advmod
+was	VBD	0	ROOT
+the	DT	4	det
+cheese	NN	2	nsubj
+

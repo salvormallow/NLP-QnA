@@ -1,0 +1,117 @@
+QuestionId: fables-04-1
+Who	WP	5	dobj
+did	VBD	5	aux
+the	DT	4	det
+Fox	NNP	5	nsubj
+invite	VB	0	ROOT
+to	TO	7	case
+dinner	NN	5	nmod
+
+QuestionId: fables-04-10
+Who	WP	2	nsubj
+failed	VBD	0	ROOT
+to	TO	4	mark
+drink	VB	2	xcomp
+some	DT	6	det
+broth	NN	4	dobj
+
+QuestionId: fables-04-11
+What	WP	0	ROOT
+was	VBD	1	cop
+the	DT	4	det
+shape	NN	1	nsubj
+of	IN	7	case
+the	DT	7	det
+neck	NN	4	nmod
+of	IN	10	case
+the	DT	10	det
+pitcher	NN	7	nmod
+
+QuestionId: fables-04-12
+What	WP	3	nsubj
+was	VBD	3	cop
+clever	JJ	0	ROOT
+
+QuestionId: fables-04-13
+What	WP	0	ROOT
+was	VBD	1	cop
+the	DT	4	det
+soup	NN	1	nsubj
+served	VBD	4	acl:relcl
+in	IN	5	nmod
+
+QuestionId: fables-04-2
+What	WP	6	dobj
+was	VBD	6	auxpass
+the	DT	5	det
+only	JJ	5	amod
+fare	NN	6	nsubjpass
+provided	VBN	0	ROOT
+
+QuestionId: fables-04-3
+Where	WRB	5	advmod
+was	VBD	5	auxpass
+some	DT	4	det
+soup	NN	5	nsubjpass
+served	VBN	0	ROOT
+
+QuestionId: fables-04-4
+Who	WP	5	dobj
+is	VBZ	5	cop
+the	DT	4	det
+story	NN	5	nsubj
+about	IN	0	ROOT
+
+QuestionId: fables-04-5
+What	WP	5	dobj
+did	VBD	5	aux
+the	DT	4	det
+fox	NN	5	nsubj
+do	VBP	0	ROOT
+to	TO	8	case
+the	DT	8	det
+soup	NN	5	nmod
+
+QuestionId: fables-04-6
+Why	WRB	5	advmod
+did	VBD	5	aux
+the	DT	4	det
+fox	NN	5	nsubj
+begin	VB	0	ROOT
+to	TO	8	mark
+be	VB	8	cop
+hungry	JJ	5	xcomp
+and	CC	8	cc
+begin	VB	8	conj
+to	TO	13	mark
+be	VB	13	cop
+helpless	JJ	10	xcomp
+
+QuestionId: fables-04-7
+What	WP	6	nmod
+did	VBD	6	aux
+the	DT	4	det
+stork	NN	6	nsubj
+easily	RB	6	advmod
+fitted	VBD	0	ROOT
+the	DT	9	det
+long	JJ	9	amod
+bill	NN	6	dobj
+into	IN	1	case
+
+QuestionId: fables-04-8
+Why	WRB	5	advmod
+did	VBD	5	aux
+the	DT	4	det
+Fox	NNP	5	nsubj
+sit	VBP	0	ROOT
+by	IN	7	case
+hungry	JJ	5	advcl
+and	CC	7	cc
+helpless	JJ	7	conj
+
+QuestionId: fables-04-9
+What	WP	0	ROOT
+was	VBD	1	cop
+savoury	NN	1	nsubj
+
