@@ -1,0 +1,126 @@
+QuestionId: fables-02-1
+Who	WP	0	ROOT
+was	VBD	1	cop
+feeding	VBG	1	nsubj
+in	IN	6	case
+a	DT	6	det
+meadow	NN	3	nmod
+
+QuestionId: fables-02-10
+Why	WRB	2	advmod
+did	VBD	0	ROOT
+not	RB	2	neg
+the	DT	6	det
+lion	NN	6	compound
+attack	NN	2	nsubj
+the	DT	8	dep
+bull	NN	2	dep
+
+QuestionId: fables-02-11
+What	WP	2	nsubj
+did	VBD	0	ROOT
+the	DT	5	det
+lion	NN	5	compound
+fear	NN	2	dobj
+
+QuestionId: fables-02-12
+What	WP	3	nsubj
+is	VBZ	3	cop
+ugly	JJ	0	ROOT
+
+QuestionId: fables-02-13
+Who	WP	2	nsubj
+salivated	VBN	0	ROOT
+
+QuestionId: fables-02-14
+Why	WRB	5	advmod
+did	VBD	5	aux
+the	DT	4	det
+lion	NN	5	nsubj
+salivate	VB	0	ROOT
+
+QuestionId: fables-02-15
+What	WP	5	dep
+did	VBD	5	aux
+the	DT	4	det
+lion	NN	5	nsubj
+advise	VBP	0	ROOT
+the	DT	7	det
+bull	NN	5	dobj
+
+QuestionId: fables-02-16
+Why	WRB	5	advmod
+did	VBD	5	aux
+the	DT	4	det
+lion	NN	5	nsubj
+advise	VBP	0	ROOT
+the	DT	7	det
+bull	NN	5	dobj
+to	TO	9	mark
+remove	VB	5	xcomp
+its	PRP$	11	nmod:poss
+horns	NNS	9	dobj
+
+QuestionId: fables-02-17
+What	WP	5	dobj
+did	VBD	5	aux
+the	DT	4	det
+lion	NN	5	nsubj
+decide	VB	0	ROOT
+
+QuestionId: fables-02-18
+Who	WP	2	nsubj
+has	VBZ	0	ROOT
+horns	NNS	2	dobj
+
+QuestionId: fables-02-2
+Who	WP	3	nsubjpass
+was	VBD	3	auxpass
+persuaded	VBN	0	ROOT
+by	IN	6	case
+this	DT	6	det
+flattery	NN	3	nmod
+
+QuestionId: fables-02-3
+Where	WRB	2	advmod
+was	VBD	0	ROOT
+the	DT	4	det
+bull	NN	2	nsubj
+
+QuestionId: fables-02-4
+Who	WP	0	ROOT
+was	VBD	1	cop
+grazing	NN	1	nsubj
+
+QuestionId: fables-02-5
+Who	WP	2	nsubj
+watched	VBD	0	ROOT
+the	DT	4	det
+bull	NN	2	dobj
+
+QuestionId: fables-02-6
+What	WP	5	dobj
+did	VBD	5	aux
+the	DT	4	det
+lion	NN	5	nsubj
+feign	VB	0	ROOT
+
+QuestionId: fables-02-7
+Who	WP	5	dobj
+is	VBZ	5	cop
+the	DT	4	det
+story	NN	5	nsubj
+about	IN	0	ROOT
+
+QuestionId: fables-02-8
+Who	WP	3	nsubj
+was	VBD	3	cop
+foolish	JJ	0	ROOT
+
+QuestionId: fables-02-9
+What	WP	5	dobj
+did	VBD	5	aux
+the	DT	4	det
+lion	NN	5	nsubj
+want	VB	0	ROOT
+

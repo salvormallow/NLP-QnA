@@ -1,0 +1,48 @@
+QuestionId: blogs-02-1
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD died))) (. ?)))
+
+QuestionId: blogs-02-10
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VBZ is) (NP (DT the) (NN story)) (ADJP (IN about))) (. ?)))
+
+QuestionId: blogs-02-11
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN narrator)) (VP (VB begin) (S (VP (TO to) (VP (VB wonder)))))) (. ?)))
+
+QuestionId: blogs-02-12
+(ROOT (FRAG (WHNP (WDT What)) (PP (IN in) (NP (NP (DT a) (NN group)) (PP (IN of) (NP (NP (NNS trees)) (SBAR (WHNP (WDT that)) (S (VP (VBD was) (PP (IN above) (NP (DT the) (NN narrator))))))))) (. ?))))
+
+QuestionId: blogs-02-13
+(ROOT (SBARQ (WHADVP (WRB When)) (SQ (VBD did) (NP (DT the) (JJ young) (NN man)) (VP (VB die))) (. ?)))
+
+QuestionId: blogs-02-14
+(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD did) (NP (DT the) (JJ young) (NN man)) (VP (VB crash) (NP (DT the) (NN motorbike)))) (. ?)))
+
+QuestionId: blogs-02-15
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD broke) (NP (NP (DT the) (NN neck)) (PP (IN of) (NP (DT the) (JJ young) (NN man)))))) (. ?)))
+
+QuestionId: blogs-02-16
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD decided) (S (VP (TO to) (VP (VB talk) (PP (TO to) (NP (DT the) (JJ young) (NN man)))))))) (. ?)))
+
+QuestionId: blogs-02-2
+(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD did) (NP (DT the) (JJ young) (NN man)) (VP (VB die))) (. ?)))
+
+QuestionId: blogs-02-3
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD visited) (NP (DT the) (NN place)) (SBAR (WHADVP (WRB where)) (S (NP (PRP he)) (VP (VBD died)))))) (. ?)))
+
+QuestionId: blogs-02-4
+(ROOT (SBARQ (WHADVP (WRB Why)) (SQ (VBD did) (NP (DT the) (NN narrator)) (VP (VB decide) (S (VP (TO to) (VP (VB talk) (PP (TO to) (NP (DT the) (JJ young) (NN man)))))))) (. ?)))
+
+QuestionId: blogs-02-5
+(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD did) (NP (DT the) (NN narrator)) (VP (VB enter))) (. ?)))
+
+QuestionId: blogs-02-6
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN narrator)) (VP (VB see))) (. ?)))
+
+QuestionId: blogs-02-7
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VBD was) (VP (VBG snoring))) (. ?)))
+
+QuestionId: blogs-02-8
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD crashed) (NP (DT the) (NN motorbike)))) (. ?)))
+
+QuestionId: blogs-02-9
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD stayed) (PP (IN with) (NP (DT the) (JJ young) (NN man))))) (. ?)))
+

@@ -1,0 +1,134 @@
+QuestionId: blogs-02-1
+Who	WP	2	nsubj
+died	VBD	0	ROOT
+
+QuestionId: blogs-02-10
+Who	WP	5	dobj
+is	VBZ	5	cop
+the	DT	4	det
+story	NN	5	nsubj
+about	IN	0	ROOT
+
+QuestionId: blogs-02-11
+What	WP	7	dobj
+did	VBD	5	aux
+the	DT	4	det
+narrator	NN	5	nsubj
+begin	VB	0	ROOT
+to	TO	7	mark
+wonder	VB	5	xcomp
+
+QuestionId: blogs-02-12
+What	WDT	0	ROOT
+in	IN	4	case
+a	DT	4	det
+group	NN	1	nmod
+of	IN	6	case
+trees	NNS	4	nmod
+that	WDT	11	nsubj
+was	VBD	11	cop
+above	IN	11	case
+the	DT	11	det
+narrator	NN	6	acl:relcl
+
+QuestionId: blogs-02-13
+When	WRB	6	advmod
+did	VBD	6	aux
+the	DT	5	det
+young	JJ	5	amod
+man	NN	6	nsubj
+die	VB	0	ROOT
+
+QuestionId: blogs-02-14
+Where	WRB	6	advmod
+did	VBD	6	aux
+the	DT	5	det
+young	JJ	5	amod
+man	NN	6	nsubj
+crash	VB	0	ROOT
+the	DT	8	det
+motorbike	NN	6	dobj
+
+QuestionId: blogs-02-15
+Who	WP	2	nsubj
+broke	VBD	0	ROOT
+the	DT	4	det
+neck	NN	2	dobj
+of	IN	8	case
+the	DT	8	det
+young	JJ	8	amod
+man	NN	4	nmod
+
+QuestionId: blogs-02-16
+Who	WP	2	nsubj
+decided	VBD	0	ROOT
+to	TO	4	mark
+talk	VB	2	xcomp
+to	TO	8	case
+the	DT	8	det
+young	JJ	8	amod
+man	NN	4	nmod
+
+QuestionId: blogs-02-2
+Where	WRB	6	advmod
+did	VBD	6	aux
+the	DT	5	det
+young	JJ	5	amod
+man	NN	6	nsubj
+die	VB	0	ROOT
+
+QuestionId: blogs-02-3
+Who	WP	2	nsubj
+visited	VBD	0	ROOT
+the	DT	4	det
+place	NN	2	dobj
+where	WRB	7	advmod
+he	PRP	7	nsubj
+died	VBD	2	advcl
+
+QuestionId: blogs-02-4
+Why	WRB	5	advmod
+did	VBD	5	aux
+the	DT	4	det
+narrator	NN	5	nsubj
+decide	VB	0	ROOT
+to	TO	7	mark
+talk	VB	5	xcomp
+to	TO	11	case
+the	DT	11	det
+young	JJ	11	amod
+man	NN	7	nmod
+
+QuestionId: blogs-02-5
+Where	WRB	5	advmod
+did	VBD	5	aux
+the	DT	4	det
+narrator	NN	5	nsubj
+enter	VB	0	ROOT
+
+QuestionId: blogs-02-6
+What	WP	5	dobj
+did	VBD	5	aux
+the	DT	4	det
+narrator	NN	5	nsubj
+see	VB	0	ROOT
+
+QuestionId: blogs-02-7
+Who	WP	3	nsubj
+was	VBD	3	aux
+snoring	VBG	0	ROOT
+
+QuestionId: blogs-02-8
+Who	WP	2	nsubj
+crashed	VBD	0	ROOT
+the	DT	4	det
+motorbike	NN	2	dobj
+
+QuestionId: blogs-02-9
+Who	WP	2	nsubj
+stayed	VBD	0	ROOT
+with	IN	6	case
+the	DT	6	det
+young	JJ	6	amod
+man	NN	2	nmod
+

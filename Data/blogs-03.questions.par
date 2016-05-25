@@ -1,0 +1,45 @@
+QuestionId: blogs-03-1
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD was) (NP (NNP Louisiana)) (VP (ADVP (RB adversely)) (VBN affected) (PP (IN by)))) (. ?)))
+
+QuestionId: blogs-03-10
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD filled) (NP (NP (DT the) (NN container)) (PP (IN of) (NP (DT some) (NN gasoline)))))) (. ?)))
+
+QuestionId: blogs-03-11
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD had) (NP (NP (DT a) (NN group)) (PP (IN of) (NP (NN oak) (NNS trees)))))) (. ?)))
+
+QuestionId: blogs-03-12
+(ROOT (SBARQ (WHNP (WDT What)) (SQ (VP (VBD fell) (PP (IN on) (NP (NP (DT the) (NN yard)) (PP (IN of) (NP (DT a) (NN neighbor))))))) (. ?)))
+
+QuestionId: blogs-03-13
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD watched) (NP (DT a) (JJ large) (NN tree)))) (. ?)))
+
+QuestionId: blogs-03-14
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VP (VBD did) (NP (DT the) (JJ first) (NN tree) (NN fall)) (PP (IN onto)))) (. ?)))
+
+QuestionId: blogs-03-15
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD stayed) (PP (IN in) (NP (NP (DT an) (NN area)) (PP (IN of) (NP (DT the) (NN home))))) (SBAR (WHADVP (WRB where)) (S (NP (PRP we)) (VP (VBD felt) (NP (JJS safest))))))) (. ?)))
+
+QuestionId: blogs-03-2
+(ROOT (SBARQ (WHNP (WDT What)) (SQ (VP (VBD rolled) (PP (IN in) (PP (IN on) (NP (NP (NNP Monday)) (, ,) (NP (NNP September) (CD 1)) (, ,)))) (PP (IN in) (NP (DT the) (NN morning))))) (. ?)))
+
+QuestionId: blogs-03-3
+(ROOT (SBARQ (WHNP (WDT What)) (SQ (VP (VBD started) (S (VP (VBG kicking) (PRT (RP up)))))) (. ?)))
+
+QuestionId: blogs-03-4
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD came) (PP (TO to) (NP (NNP Baton) (NNP Rouge))) (NP-TMP (NN yesterday)) (S (VP (TO to) (VP (VB assess) (NP (DT the) (NN damage))))))) (. ?)))
+
+QuestionId: blogs-03-5
+(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD was) (NP (DT the) (NN storm)) (VP (VBG occurring))) (. ?)))
+
+QuestionId: blogs-03-6
+(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD did) (NP (DT the) (NN narrator)) (VP (VB go) (ADVP (RB back)) (PP (TO to)) (SBAR (IN in) (NN order) (S (VP (TO to) (VP (VB purchase) (NP (DT a) (JJ portable) (NN generator)))))))) (. ?)))
+
+QuestionId: blogs-03-7
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (NP (DT the) (NN area)) (PP (IN of) (NP (NP (DT a) (NN neighborhood)) (PP (IN of) (NP (DT the) (NN narrator)))))) (VP (VB have))) (. ?)))
+
+QuestionId: blogs-03-8
+(ROOT (SBARQ (WHADVP (WRB Why)) (SQ (VBD did) (NP (DT the) (NN narrator)) (VP (VB begin) (S (VP (TO to) (VP (VB be) (ADJP (JJ nervous))))))) (. ?)))
+
+QuestionId: blogs-03-9
+(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD did) (NP (DT the) (NN narrator)) (VP (VB bring) (NP (NP (DT the) (NN family)) (PP (IN of) (NP (DT the) (NN narrator)))) (PP (TO to)))) (. ?)))
+

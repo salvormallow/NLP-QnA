@@ -1,0 +1,39 @@
+QuestionId: fables-04-1
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VBD did) (NP (DT the) (NNP Fox)) (VP (VB invite) (PP (TO to) (NP (NN dinner))))) (. ?)))
+
+QuestionId: fables-04-10
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD failed) (S (VP (TO to) (VP (VB drink) (NP (DT some) (NN broth))))))) (. ?)))
+
+QuestionId: fables-04-11
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD was) (NP (NP (DT the) (NN shape)) (PP (IN of) (NP (NP (DT the) (NN neck)) (PP (IN of) (NP (DT the) (NN pitcher))))))) (. ?)))
+
+QuestionId: fables-04-12
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD was) (ADJP (JJ clever))) (. ?)))
+
+QuestionId: fables-04-13
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD was) (NP (NP (DT the) (NN soup)) (SBAR (S (VP (VBD served) (PP (IN in))))))) (. ?)))
+
+QuestionId: fables-04-2
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD was) (NP (DT the) (JJ only) (NN fare)) (VP (VBN provided))) (. ?)))
+
+QuestionId: fables-04-3
+(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD was) (NP (DT some) (NN soup)) (VP (VBN served))) (. ?)))
+
+QuestionId: fables-04-4
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VBZ is) (NP (DT the) (NN story)) (ADJP (IN about))) (. ?)))
+
+QuestionId: fables-04-5
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN fox)) (VP (VBP do) (PP (TO to) (NP (DT the) (NN soup))))) (. ?)))
+
+QuestionId: fables-04-6
+(ROOT (SBARQ (WHADVP (WRB Why)) (SQ (VBD did) (NP (DT the) (NN fox)) (VP (VB begin) (S (VP (TO to) (VP (VP (VB be) (ADJP (JJ hungry))) (CC and) (VP (VB begin) (S (VP (TO to) (VP (VB be) (ADJP (JJ helpless))))))))))) (. ?)))
+
+QuestionId: fables-04-7
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN stork)) (VP (ADVP (RB easily)) (VBD fitted) (NP (DT the) (JJ long) (NN bill)) (PP (IN into)))) (. ?)))
+
+QuestionId: fables-04-8
+(ROOT (SBARQ (WHADVP (WRB Why)) (SQ (VBD did) (NP (DT the) (NNP Fox)) (VP (VBP sit) (PP (IN by) (ADJP (JJ hungry) (CC and) (JJ helpless))))) (. ?)))
+
+QuestionId: fables-04-9
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD was) (NP (NN savoury))) (. ?)))
+

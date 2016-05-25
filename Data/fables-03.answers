@@ -1,0 +1,125 @@
+QuestionID: fables-03-1
+Question: Who is the story about?
+Answer: an eagle, a serpent, and a countryman
+Difficulty: Easy
+Type: Story
+
+QuestionID: fables-03-2
+Question: Who swooped down upon a Serpant?
+Answer: an eagle
+Difficulty: Easy
+Type: Story
+
+QuestionID: fables-03-3
+Question: What did the Eagle seize it with?
+Answer: his talons
+Difficulty: Easy
+Type: Story
+
+QuestionID: fables-03-4
+Question: Who came to the assistance of the Eagle?
+Answer: a countryman
+Difficulty: Easy
+Type: Story
+
+QuestionID: fables-03-5
+Question: What did the Serpent spit?
+Answer: some poison | some of his poison 
+Difficulty: Easy
+Type: Story | Sch
+
+QuestionID: fables-03-6
+Question: Where did the Serpent spit some poison? 
+Answer: into the man's drinking-horn | in the drinking vessel of the countryman
+Difficulty: Easy
+Type: Story | Sch
+
+QuestionID: fables-03-7
+Question: What did the countryman decide?
+Answer: to sip from the drinking vessel
+Difficulty: Easy
+Type: Sch
+
+QuestionID: fables-03-8
+Question: Who spilled the drinking vessel?
+Answer: the eagle
+Difficulty: Easy
+Type: Sch
+
+QuestionID: fables-03-9
+Question: What did the eagle spill? 
+Answer: the drinking vessel
+Difficulty: Easy
+Type: Sch
+
+QuestionID: fables-03-10
+Question: Where where the contents of the horn spilled? 
+Answer: the ground
+Difficulty: Easy
+Type: Story
+
+QuestionID: fables-03-11
+Question: What was heated?
+Answer: his exertions
+Difficulty: Easy
+Type: Story
+
+QuestionID: fables-03-12
+Question: What did the Serpent do in revenge?
+Answer: spat some of his poison into the man's drinking-horn
+Difficulty: Easy
+Type: Story
+
+QuestionID: fables-03-13
+Question: Who seized it? 
+Answer: an Eagle
+Difficulty: Medium
+Type: Story
+
+QuestionID: fables-03-14
+Question: Who had its coils around him? 
+Answer: The serpent
+Difficulty: Medium
+Type: Story | Sch
+
+QuestionID: fables-03-15
+Question: Who was a witness of the encounter?
+Answer: a countryman
+Difficulty: Medium
+Type: Story
+
+QuestionID: fables-03-16
+Question: Who came to the assistance of the Eagle? 
+Answer: a countryman
+Difficulty: Medium
+Type: Story
+
+QuestionID: fables-03-17
+Question: What did the countryman own?  
+Answer: a drinking vessel
+Difficulty: Medium
+Type: Sch
+
+QuestionID: fables-03-18
+Question: Who succeeded in freeing him? 
+Answer: a countryman
+Difficulty: Medium
+Type: Story
+
+QuestionID: fables-03-19
+Question: What did the countryman free the eagle from? 
+Answer: the serpent
+Difficulty: Medium
+Type: Sch
+
+QuestionID: fables-03-20
+Question: What did the Serpent spat?
+Answer: some poison | some of his poison 
+Difficulty: Medium
+Type: Sch | Story
+
+QuestionID: fables-03-21
+Question: Who spilled its contents? 
+Answer: the eagle
+Difficulty: Medium
+Type: Story
