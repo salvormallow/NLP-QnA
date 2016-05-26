@@ -1,6 +1,7 @@
 import nltk
 import re
 import sys
+
 import pprint
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet as wn
@@ -17,6 +18,10 @@ def file_reader( filename, extension ):
 def sentence_tokenizer( text ):
     token_list = nltk.sent_tokenize( text, "english")
     return token_list
+
+
+def word_tokenizer(text):
+    return nltk.word_tokenize(text)
 
 # Read a file.questions and return a list with a list of 4 entry
 # entry 1 = Question ID
@@ -40,7 +45,7 @@ def question_parser( filename ):
     return result
 
 # Reads tokenize sentence and return a list for each of the sentences contains its noun phrase chunks
-def phrase_chunker(text, type):
+def phrase_chunker(text, type='np'):
     tokenize_story = []
     sentence_pos = []
     result = []
