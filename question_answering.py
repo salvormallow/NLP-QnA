@@ -2,9 +2,10 @@ import nltk
 import re
 import sys
 
-import pprint
+from pprint import pprint
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet as wn
+from nltk.stem.wordnet import WordNetLemmatizer
 
 
 # Read the file and return a text
@@ -22,6 +23,14 @@ def sentence_tokenizer( text ):
 
 def word_tokenizer(text):
     return nltk.word_tokenize(text)
+
+
+# accepts a word and either 'n' or 'v' depending on whether the word is a noun or a verb
+def lemmatizer(word, n_v):
+    lmtzr = WordNetLemmatizer()
+    return lmtzr.lemmatize(word, n_v)
+
+
 
 # Read a file.questions and return a list with a list of 4 entry
 # entry 1 = Question ID
@@ -42,6 +51,7 @@ def question_parser( filename ):
         each.append( match_difficulty[i] )
         each.append( match_type[i] )
         result.append(each)
+
     return result
 
 # Reads tokenize sentence and return a list for each of the sentences contains its noun phrase chunks

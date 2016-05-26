@@ -2,70 +2,88 @@ import question_answering as qa
 import re, nltk
 from pprint import pprint
 from nltk.tree import Tree
+from nltk.stem.wordnet import WordNetLemmatizer
 
 
 def create_tree_dict(filename='blogs-01', filetype='story'):
-    text = qa.file_reader(filename + "." + filetype, 'par')
+    text = qa.file_reader(filename, filetype + '.par')
     treedict = {}
 
     if (filetype.lower() == "question"):
         pattern = r'QuestionId: ([\w-]+)\n(.+)\n'
         questions = re.findall(pattern, text)
         for question in questions:
-            treedict[question[0]] = Tree.fromstring(question[1])
+            treedict[question[0]] = nltk.tree.ParentedTree.fromstring(question[1])
     else:
         lines = text.split("\n")
         i = 0
         lines = lines[:-1]
         for line in lines:
-            treedict[i] = Tree.fromstring(line)
+            treedict[i] = nltk.tree.ParentedTree.fromstring(line)
             i += 1
 
     return treedict
 
 
-def matches(pattern, root):
-    if root is None and pattern is None:
-        return root
-
-    elif pattern is None:
-        return root
-
-    elif root is None:
-        return None
-
-    # A node in a tree can either be a string (if it is a leaf) or node
-    plabel = pattern if isinstance(pattern, str) else pattern.label()
-    rlabel = root if isinstance(root, str) else root.label()
-
-    # If our pattern label is the * then match no matter what
-    if plabel == "*":
-        return root
-    # Otherwise they labels need to match
-    elif plabel == rlabel:
-        # If there is a match we need to check that all the children match
-        # Minor bug (what happens if the pattern has more children than the tree)
-        for pchild, rchild in zip(pattern, root):
-            match = matches(pchild, rchild)
-            if match is None:
-                return None
-        return root
-
-    return None
+def find_subtree(tree, string):
+    left_wild = ""
+    right_wild = ""
+    if string[0] == "*":
+        left_wild = "\w*"
+        string = string[1:]
+    if string[-1] == "*":
+        right_wild = "\w*"
+        string = string[:-1]
+    NPs = list(tree.subtrees(
+        filter=lambda x: re.match(r"\b" + left_wild + string.lower() + right_wild + r"\b", x.label().lower())))
+    return NPs
+    # map(lambda x: list(tree.subtrees(filter=lambda x: x.node == string)), NPs)
+    # if(string in tree.leaves()):
+    #     leaf_index = tree.leaves().index(string)
+    #     tree_location = tree.leaf_treeposition(leaf_index)
+    #     return tree_loca tion
 
 
-def pattern_matcher(pattern, tree):
-    for subtree in tree.subtrees():
-        node = matches(pattern, subtree)
-        if node is not None:
-            return node
-    return None
+def find_verb_phrase(tree, verb):
+    subtrees = find_subtree(tree, "VB*")
+    lemmatized_verb = qa.lemmatizer(verb, 'v')
+    print(subtrees)
+    for subtree in subtrees:
+        if qa.lemmatizer(subtree[0], 'v') == lemmatized_verb:
+            if subtree.parent() is None:
+                return subtree
+            else:
+                return subtree.parent()
 
 
-treedict = create_tree_dict("blogs-01", "sch")
+def find_where(story_name, file_type, question_no, sentence_no):
+    treedict = create_tree_dict(story_name, file_type)
+    sentence_no = 1
+    root_verb = "was"
+    v_phrase = find_verb_phrase(treedict[sentence_no], root_verb)
+
+    subtree = find_subtree(v_phrase, "PP")
+    print(" ".join(subtree[0].leaves()))
+
+
+find_where("fables-02", "sch", 6, 2)
 # file = qa.file_reader('blogs-01', 'sch')
 # sents = qa.sentence_tokenizer(file)
-pprint(treedict[4])
-pattern = nltk.ParentedTree.fromstring("(PP)")
-subtree = pattern_matcher(pattern, treedict[4])
-pprint(subtree)
+# pattern = nltk.ParentedTree.fromstring("(PP)")
+# subtree = pattern_matcher(pattern, treedict[4])
+# coo = []
+# print()
+# coo = find_verb_phrase(treedict[2], "was")
+# coo = find_subtree(coo, "PP")
+
+# subtrees = find_subtree(treedict[3], "VB*")
+# test = []
+# for subtree in test:
+#     for word in subtree:
+#         w
+# pprint(subtrees[0].)
+# subtree = find_leaf(subtree[0], "VBD")[0].leaves()
+# for subtree in subtrees:
+#     if subtree[0][0] == "observed":
+#         print (subtree.parent().parent())
+# pprint(qa.lemmatizer(subtrees[0][0][0], 'v'))/
