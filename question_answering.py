@@ -31,6 +31,25 @@ def lemmatizer(word, n_v):
     return lmtzr.lemmatize(word, n_v)
 
 
+def normalize(review):
+    lowerText = review.lower()
+    lowerText = nltk.word_tokenize(lowerText)
+
+    stopWords = stopwords.words('english')
+    stopWords.append("'s")
+    stopWords.append("'t")
+    stopWords.append("like")
+    stopWords.append("things")
+
+    normalizedText = (" ").join(word for word in lowerText if word not in stopWords)
+
+    pattern = r"(?<!\w)(\W+)(?!\w)"
+    normalizedText = re.sub(pattern, " ", normalizedText)
+    normalizedText = re.sub(r"( ){2,}", " ", normalizedText)[:-1]
+    normalizedText = normalizedText.split(sep=' ')
+
+    return normalizedText
+
 
 # Read a file.questions and return a list with a list of 4 entry
 # entry 1 = Question ID
@@ -79,11 +98,12 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         input_file = sys.argv[1]
     else:
-        input_file = 'blogs-01'
-    story_text = file_reader(input_file, 'story')
-    print(story_text)
-    sent_tokens = sentence_tokenizer(story_text)
-    print(phrase_chunker(sent_tokens, "np"))
+        input_file = 'fables-01'
+    print(question_parser(input_file))
+    # story_text = file_reader(input_file, 'story')
+    # print(story_text)
+    # sent_tokens = sentence_tokenizer(story_text)
+    # print(phrase_chunker(sent_tokens, "np"))
 
 
 
