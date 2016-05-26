@@ -24,7 +24,4 @@ def create_tree_dict(filename='blogs-01', filetype='story'):
     return treedict
 
 
-create_tree_dict()
-
-# text = text.split("\n")
-# for question in text:
+pprint(create_tree_dict("fables-01", "sch"))

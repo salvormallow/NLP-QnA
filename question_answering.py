@@ -40,11 +40,15 @@ def question_parser( filename ):
     return result
 
 # Reads tokenize sentence and return a list for each of the sentences contains its noun phrase chunks
-def noun_phrase_chunker( text ):
+def phrase_chunker(text, type):
     tokenize_story = []
     sentence_pos = []
     result = []
-    grammer = 'NP: {<DT>?<JJ>*<NN>}'
+    dict = {'np': 'NP: {<DT>?<JJ>*<NN>}',
+            'vp': 'VP: {<V> <NP|PP>*}',
+            'pp': 'PP: {<P> <DT>?<JJ>*<NN>}',
+            }
+    grammer = dict[type.lower()]
     chunker = nltk.RegexpParser(grammer)
     for sentence in text:
         tokenize_story.append( nltk.word_tokenize(sentence) )
@@ -59,13 +63,15 @@ def noun_phrase_chunker( text ):
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         input_file = sys.argv[1]
-        story_text = file_reader( input_file, 'story' )
-        print(story_text)
-        # sent_tokens = sentence_tokenizer( story_text )
-        # noun_phrase_chunker( sent_tokens )
-
-
     else:
-        print("Please enter input file as an arguments to start like blog-01 ****NO EXTENSION****")
-        exit()
+        input_file = 'blogs-01'
+    story_text = file_reader(input_file, 'story')
+    print(story_text)
+    sent_tokens = sentence_tokenizer(story_text)
+    print(phrase_chunker(sent_tokens, "np"))
 
+
+
+    # else:
+    #     print("Please enter input file as an arguments to start like blog-01 ****NO EXTENSION****")
+    #     exit()
